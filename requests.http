@@ -1,0 +1,2 @@
+GET http://localhost:3000/dates.json
+Content-Type: application/json
