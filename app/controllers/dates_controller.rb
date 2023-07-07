@@ -10,8 +10,6 @@ class DatesController < ApplicationController
     request["X-RapidAPI-Host"] = "historical-events-by-api-ninjas.p.rapidapi.com"
 
     response = http.request(request)
-    # render json: response.as_json
-
     render json: response.body
   end
 end
