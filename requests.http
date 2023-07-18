@@ -1,2 +1,19 @@
 GET http://localhost:3000/dates.json
 Content-Type: application/json
+
+# {
+#   "month": "3",
+#   "day": "30"
+# }
+
+### POST Test
+POST http://localhost:3000/dates.json
+Content-Type: application/json
+
+{
+  
+    "month": "6",
+    "day": "26"
+  
+    
+}
